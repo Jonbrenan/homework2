@@ -40,3 +40,14 @@ body {
     padding: 20px;
     background-color: grey;
 }
+
+
+#listofthings {
+    background-color: grey;
+    width: 635px;
+    text-align: center;
+}
+
+#deck {
+    text-align: center;
+}
