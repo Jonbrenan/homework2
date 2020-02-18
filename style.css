@@ -51,3 +51,8 @@ body {
 #deck {
     text-align: center;
 }
+
+#contact {
+    background-color: grey;
+    padding-bottom: 15px;
+}
