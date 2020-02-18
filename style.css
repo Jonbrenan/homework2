@@ -7,9 +7,36 @@
     margin-left: 20px;
     padding-right: 10px;
     padding-left: 10px;
+    z-index: 1;
 }
+
 
 
 .nav {
     padding: 20px;
+}
+
+
+#photo {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#contain1 {
+    width: 800px;
+    background-color: grey;
+    
+}
+
+body {
+    background-image: url(hankmad.jpg);
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: grey;
 }
