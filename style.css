@@ -21,7 +21,7 @@
 }
 
 #contain1 {
-    width: 800px;
+    width: 100%;
     background-color: #E5B004;
     
 }
@@ -49,8 +49,8 @@ body {
 
 #listofthings {
     background-color: #E5B004;
-    width: 635px;
-    text-align: center;
+    width: 100%;
+    
 }
 
 #deck {
@@ -58,7 +58,7 @@ body {
 }
 
 #contact {
-    background-color: grey;
+    background-color: #E5B004;
     padding-bottom: 15px;
 }
 
@@ -82,4 +82,33 @@ body {
 
   
 
-  
+  #big {
+      width: 100%;
+      height: auto;
+  }
+
+  #newpic {
+      width: 30%;
+      height: auto;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 20px;
+  }
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+#center {
+    text-align: center;
+}
+
+#rows {
+    text-align: center;
+}
+
+.random {
+    height: 50%;
+    width: 50%;
+}
