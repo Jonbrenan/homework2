@@ -7,25 +7,24 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+  
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 
 <body id="body">
-
+  <!--What we have right here is the code for the H1 text, which says "Jon Brenan". Attached to it is the class "header", which
+  has info in it in the style sheet that gives the header a small colored background-->
   <div class="c1 fixed-top">
     <div class="header">
       <h1>Jon Brenan</h1>
     </div>
+
+
+
+    <!-- Here we have our Navbar. The code is primarily taken from BootStrap, but I have tweaked it a bit to change
+    where the buttons go, and have changed the primary color of it as well. It is linked to some JS at the bottom of the body-->
+
 
     <nav class="navbar navbar-expand-lg navbar-light " id="bgc">
       <a class="navbar-brand" href="#" id="name"></a>
@@ -61,8 +60,12 @@
   <br>
   <br>
   <br>
+  
 
-  <div class="container" id="contain1">
+<!--Some pretty simple stuff here. I have a large container that holds multiple rows and columns, which contains a picture, text (paragraph
+  and header) and a border that separates the header and the text-->
+
+  <div class="container main-contain">
     <br>
     <div class="row">
       <div class="col">
@@ -78,15 +81,15 @@
     <div class="row">
       <div class="col">
 
-        <img src="heads2.jpg" class="img-fluid" id="newpic">
-        <p>This is a bunch of text that I have to write about myself. What is my name? Well my first name is Jon. My
+        <img src="heads2.jpg" class="img-fluid" id="newpic" alt="Picture of a dashing young man">
+        <p id="text">This is a bunch of text that I have to write about myself. What is my name? Well my first name is Jon. My
           middle name is Ralph, and my last name is a mystery! Can you guess what it is? Well, the kids in grade 2
           called me Jon Banana, but my last name is not Banana. No, not at all. Not one bit. But it does have a B in it,
-          doesn't it? What else does it have in it, I wonder? Hmmm, I guess you will have to find out!?This is a bunch
+          doesn't it? What else does it have in it, I wonder? Hmmm, I guess you will have to find out!? This is a bunch
           of text that I have to write about myself. What is my name? Well my first name is Jon. My middle name is
           Ralph, and my last name is a mystery! Can you guess what it is? Well, the kids in grade 2 called me Jon
           Banana, but my last name is not Banana. No, not at all. Not one bit. But it does have a B in it, doesn't it?
-          What else does it have in it, I wonder? Hmmm, I guess you will have to find out!?This is a bunch of text that
+          What else does it have in it, I wonder? Hmmm, I guess you will have to find out!? This is a bunch of text that
           I have to write about myself. What is my name? Well my first name is Jon. My middle name is Ralph, and my last
           name is a mystery! Can you guess what it is? Well, the kids in grade 2 called me Jon Banana, but my last name
           is not Banana. No, not at all. Not one bit. But it does have a B in it, doesn't it? What else does it have in
@@ -102,6 +105,10 @@
   <br>
   <br>
 
+
+<!--This is the footer. I had to make two different footers and move them around so one of them is only partially seen. This gives it
+a brown row at the top of the footer that I believe adds to the style-->
+
   <div class="footer2 align-self-center"></div>
   <div class="footer align-item-center">
     <p>© Copyright</p>
@@ -111,10 +118,18 @@
 
 
 
+<!-- Javascript at the bottom here so the navbars "hamburger" element works when the page is shurnk down-->
 
 
-
-
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
 </body>
 
 

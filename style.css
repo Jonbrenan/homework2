@@ -1,34 +1,99 @@
+
+
+/* this code here dicatates what the background of all the body elements on the website */
+
+body {
+    background-image: url(hankmad.jpg);
+}
+
+/* this code is for the header that appears about the navbar */
 .header {
-    background-color: #8984E2;
+    background-color: #E1C56B;
     position: fixed;
     margin-left: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
     z-index: 1;
     text-align: center;
 }
 
 
+/* this dictactes the color of the containers in all the webpages */
 
-.nav {
-    padding: 20px;
+
+.main-contain {
+    background-color: #E5B004;
 }
 
 
-#photo {
+
+/* This dictates some settings for the picture in the container on the index page */
+
+#newpic {
+    width: 30%;
+    height: auto;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+/* This dictates text for contact forum */
+
+.form-group {
+    font-size: 20px;
+
     
 }
 
-#contain1 {
+
+/*dictates information on the cards on the portfolio page */
+
+.contain1 {
     width: 100%;
-    background-color: #E5B004;
+    background-color: #E1C56B;
+    font-size: 50px;
     
 }
 
-body {
-    background-image: url(hankmad.jpg);
+/* dictates color of button on contact page */
+
+#final-button {
+    background-color: #E1C56B;
 }
+
+
+
+/* dictates color of nav bar */
+
+#bgc {
+    background-color: #E5B004;
+    color: #E5B004;
+}
+
+
+
+
+/* adds some color and padding to container in contact page */
+
+#contact {
+    background-color: #E5B004;
+    padding-bottom: 15px;
+}
+
+/* dictates size of photos in portfolio */
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+/* dictates size of text in index page container */
+
+#text {
+    font-size: 20px;
+}
+
+/* dictates info for one of the footers */
 
 .footer {
     text-align: center;
@@ -38,77 +103,11 @@ body {
     background-color: #E5B004;
 }
 
+/* dictates info for the other footer */
+
 .footer2 {
     text-align: center;
     width: 100%;
     padding: 5px;
     background-color: #903F07;
-}
-
-
-
-#listofthings {
-    background-color: #E5B004;
-    width: 100%;
-    
-}
-
-#deck {
-    text-align: center;
-}
-
-#contact {
-    background-color: #E5B004;
-    padding-bottom: 15px;
-}
-
-
-.line {
-    content: '';
-    display: inline-block;
-    background: #888;
-    
-    height: 18px;
-    width: 1px;
-    vertical-align: bottom;
-  }
-
-
-
- #bgc {
-      background-color: #E5B004;
-      color: #E5B004;
-  }
-
-  
-
-  #big {
-      width: 100%;
-      height: auto;
-  }
-
-  #newpic {
-      width: 30%;
-      height: auto;
-      float: left;
-      margin-right: 20px;
-      margin-bottom: 20px;
-  }
-
-.card-img {
-    width: 100%;
-    height: auto;
-}
-
-#center {
-    text-align: center;
-}
-
-#rows {
-    text-align: center;
-}
-
-.random {
-    height: 50%;
-    width: 50%;
 }
